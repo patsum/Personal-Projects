@@ -8,6 +8,24 @@ var pool = mysql.createPool({
     database: "test"
 });
 
+exports.empty = function (procedure, values) {
+    return sendQuery(procedure, values).then(function () {
+        return;
+    })
+};
+
+exports.row = function (procedure, values) {
+    return sendQuery(procedure, values).then(function (resultSets) {
+        return resultSets[0][0];
+    })
+};
+
+exports.rows = function (procedure, values) {
+    return sendQuery(procedure, values).then(function (resultSets) {
+        return resultSets[0];
+    })
+};
+
 function sendQuery(procedure, values) {
     return new Promise(function (fulfill, reject) {
         pool.getConnection(function (err, connection) {

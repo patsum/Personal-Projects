@@ -10,7 +10,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 
     $routeProvider.when('/item', {
         templateUrl: 'views/item.html',
-        controller: 'ItemController'
+        controller: 'HomeController'
 
     });
     
