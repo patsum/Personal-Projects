@@ -1,9 +1,13 @@
-<h1>You Can Has Item!</h1>
-<button ng-click="getItem()">Get Item</button>
-<hr>
-<!--<a ng-href="/{{data.item}}">chek</a>-->
-<div ng-repeat="i in data">
-    <h2>{{i.item}}</h2>
-    <!--<h3>{{i.lastname}}</h3>-->
-</div>
-    
+<h2>Booxtoar</h2>
+
+<button ngclick="getBook()"></button>
+<div class="row">
+<div class='col-md-2' id="placement" ng-repeat="book in books">
+    <img id="img-size" class="img-size" ng-src="{{book.image}}">
+    <h4>{{book.title}}</h4>
+    <h4>{{book.author}}</h4>
+    <h4> 
+        <a ng-href="/{{book.id}}">Closer Look</a>
+    </h4>
+    </div>
+    </div>

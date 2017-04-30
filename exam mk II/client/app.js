@@ -1,4 +1,4 @@
-var app = angular.module('test', ['ngRoute', 'ngResource', 'test.factories', 'test.controllers']);
+var app = angular.module('Final', ['ngRoute', 'ngResource', 'Final.factories', 'Final.controllers']);
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
     $locationProvider.html5Mode(true);
@@ -8,9 +8,9 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         controller: 'HomeController'
     });
 
-    $routeProvider.when('/item', {
-        templateUrl: 'views/item.html',
-        controller: 'HomeController'
+    $routeProvider.when('/:id', {
+        templateUrl: 'views/singlebook.html',
+        controller: 'SingleController'
 
     });
     

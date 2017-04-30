@@ -2,11 +2,15 @@ var mysql = require("mysql");
 
 var pool = mysql.createPool({
     connectionLimit: 10,
-    host: "localhost",
-    user: "patrick",
-    password: "powerpower",
-    database: "test"
+    host: "finalexamdb.crybll5rojww.us-east-1.rds.amazonaws.com",
+port: 3306,
+user: "student",
+password: "covalence",
+database: "CovalenceLibrary",
 });
+
+exports.pool = pool;
+
 
 exports.empty = function (procedure, values) {
     return sendQuery(procedure, values).then(function () {
@@ -32,6 +36,7 @@ function sendQuery(procedure, values) {
             if (err) {
                 reject(err);
             } else {
+                console.log('db callback');
                 var queryString = "CALL " + procedure + parseParams(values.length);
                 connection.query(queryString, values, function (err, resultSets) {
                     connection.release();
