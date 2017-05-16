@@ -13,6 +13,10 @@ $routeProvider.when('/resume', {
     templateUrl: 'views/patrick.html',
     controller: 'PatrickController',
     css: 'styles.css'
+})
+$routeProvider.when('/clue', {
+    templateUrl: 'views/clue.html',
+    controller: 'ClueController'
 });
 
 }]);
