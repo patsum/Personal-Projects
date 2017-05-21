@@ -1,0 +1,99 @@
+button{
+    width:60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    background-size: 60px;
+    outline: none;
+}
+
+#playpausebtn {
+    background: url(media/pause.jpeg) no-repeat;
+    width:60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    background-size: 60px;
+    outline: none;
+}
+ #mutebtn {
+    background: url(media/speaker.jpg) no-repeat;
+    width:60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    background-size: 60px;
+    outline: none;
+}
+button#playpausebtn1 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#playpausebtn2 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#playpausebtn3 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#playpausebtn4 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#playpausebtn5 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#playpausebtn6 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#playpausebtn7 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#playpausebtn8 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#playpausebtn9 {
+    background: url(media/pause.jpeg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn1 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn2 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn3 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn4 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn5 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn6 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn7 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn8 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
+button#mutebtn9 {
+    background: url(media/speaker.jpg) no-repeat;
+    background-size: 60px;
+}
