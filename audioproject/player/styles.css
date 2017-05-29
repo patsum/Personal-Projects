@@ -1,99 +1,181 @@
 button{
-    width:60px;
-    height: 60px;
-    border: none;
+    width:3em;
+    height: 3em;
+    border: 2px solid black;
     cursor: pointer;
     background-size: 60px;
     outline: none;
 }
+@font-face {
+    font-family: exoblack;
+    src: url("/exo-black.otf") format("opentype");
+}
+#head{
+    background-color: #666;
+    text-align: center;
+    font-family: Lucida Sans Console, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 11%;
+    border: 3px solid black;
+}
+#controls{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width:85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#999;
+    border-radius: 5%;
+    border: 3px solid black;
+
+}
+.dropdown{
+    border-radius: 3em;
+    background-color: #444;
+    color: #fff;
+       background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 27px;
+   overflow: hidden;
+   width: 3em;
+}
+
+/*#files{
+    display: inline-block;
+}*/
+
+button#stopbtn{
+    background-color: darkred;
+    border-radius: 5px;
+    border: 3px solid black;
+}
 
 #playpausebtn {
-    background: url(media/pause.jpeg) no-repeat;
-    width:60px;
-    height: 60px;
-    border: none;
+    /*background: url(media/pause.jpeg) no-repeat;*/
+    background-color: forestgreen;
+    border-radius: 100%;
+    width:3em;
+    height: 3em;
+    border: 2px solid black;
     cursor: pointer;
     background-size: 60px;
     outline: none;
 }
  #mutebtn {
-    background: url(media/speaker.jpg) no-repeat;
-    width:60px;
-    height: 60px;
-    border: none;
+    /*background: url(media/speaker.jpg) no-repeat;*/
+    background-color: #f1229f;
+    border-radius: 100%;
+    width:3em;
+    height: 3em;
+    border: 2px solid black;
     cursor: pointer;
     background-size: 60px;
     outline: none;
 }
 button#playpausebtn1 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#playpausebtn2 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#playpausebtn3 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#playpausebtn4 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#playpausebtn5 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#playpausebtn6 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#playpausebtn7 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#playpausebtn8 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#playpausebtn9 {
-    background: url(media/pause.jpeg) no-repeat;
+    /*background: url(media/pause.jpeg) no-repeat;*/
     background-size: 60px;
+    background-color: forestgreen;
+    border-radius: 100%;
 }
 button#mutebtn1 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
 button#mutebtn2 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
 button#mutebtn3 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
 button#mutebtn4 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
 button#mutebtn5 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
 button#mutebtn6 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
 button#mutebtn7 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
 button#mutebtn8 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
 button#mutebtn9 {
-    background: url(media/speaker.jpg) no-repeat;
+    /*background: url(media/speaker.jpg) no-repeat;*/
     background-size: 60px;
+    background-color: #f1229f;
+    border-radius: 100%;
 }
