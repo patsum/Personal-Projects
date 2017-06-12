@@ -11,7 +11,7 @@ button{
     src: url("/exo-black.otf") format("opentype");
 }
 #head{
-    
+    position: relative;
     background-color: #666;
     color: #fff;
     text-shadow: black 10px;
@@ -20,7 +20,7 @@ button{
     font-family: monospace, 'Arial Narrow Bold', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 11%;
     border: 3px solid black;
-    padding-right: 6%;
+    padding-right: 5%;
     height: 100%;
 }
 #controls{
@@ -43,12 +43,16 @@ button{
     border-radius: 3em;
     background-color: #000;
     color: #fff;
+    font-size: 10px;
        /*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;*/
    height: 27px;
    overflow: hidden;
    width: 9em;
 }
-
+#backdrop{
+    /*background-color: #444;*/
+    position: absolute
+}
 /*#files{
     display: inline-block;
 }*/
@@ -75,7 +79,7 @@ button#stopbtn{
     height: 3em;
     border: 2px solid black;
     cursor: pointer;
-    background-size: 3em;
+    background-size: 2.7em;
     outline: none;
 }
  #mutebtn {
@@ -86,114 +90,114 @@ button#stopbtn{
     height: 3em;
     border: 2px solid black;
     cursor: pointer;
-    background-size: 3em;
+    background-size: 2.7em;
     outline: none;
 }
 button#playpausebtn1 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#playpausebtn2 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#playpausebtn3 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#playpausebtn4 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#playpausebtn5 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#playpausebtn6 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#playpausebtn7 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#playpausebtn8 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#playpausebtn9 {
     background: url(media/pause.jpeg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: forestgreen;
     border-radius: 100%;
 }
 button#mutebtn1 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }
 button#mutebtn2 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }
 button#mutebtn3 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }
 button#mutebtn4 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }
 button#mutebtn5 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }
 button#mutebtn6 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }
 button#mutebtn7 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }
 button#mutebtn8 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }
 button#mutebtn9 {
     background: url(media/speaker.jpg) no-repeat;
-    background-size: 3em;
+    background-size: 2.7em;
     background-color: #f1229f;
     border-radius: 100%;
 }

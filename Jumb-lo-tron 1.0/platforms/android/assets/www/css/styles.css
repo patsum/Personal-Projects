@@ -1,0 +1,211 @@
+button{
+    width:3em;
+    height: 3em;
+    border: 2px solid black;
+    cursor: pointer;
+    background-size: 3em;
+    outline: none;
+}
+@font-face {
+    font-family: exoblack;
+    src: url("/exo-black.otf") format("opentype");
+}
+#head{
+    position: relative;
+    background-color: #666;
+    color: #fff;
+    text-shadow: black 10px;
+    text-align: center;
+    background-image: url(../media/static1.jpg);
+    font-family: monospace, 'Arial Narrow Bold', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8em;
+    border-radius: 11%;
+    border: 3px solid black;
+    padding-right: 5%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+#controls{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width:90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 8%;
+    /*background-color:#999;*/
+    border-radius: 5em;
+    /*border: 3px solid black;*/
+
+}
+#smidge{
+    margin-left: 0%;
+    padding-left: 0%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width:85%;
+}
+.dropdown{
+    border-radius: 3em;
+    background-color: #000;
+    color: #fff;
+    font-size: 10px;
+       /*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;*/
+   height: 27px;
+   overflow: hidden;
+   width: 9em;
+}
+#backdrop{
+    /*background-color: #444;*/
+    position: absolute
+}
+/*#files{
+    display: inline-block;
+}*/
+
+button#stopbtn{
+    background-color: darkred;
+
+    background-image: url(../media/stahp.png) ;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    background-size: 55px;
+    /*border: 3px solid black;*/
+    text-align: left;
+    color: #fff;
+
+}
+
+#playpausebtn {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-color: forestgreen;
+    border-radius: 100%;
+    width:3em;
+    height: 3em;
+    border: 2px solid black;
+    cursor: pointer;
+    background-size: 2.7em;
+    outline: none;
+}
+ #mutebtn {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-color: #f1229f;
+    border-radius: 100%;
+    width:3em;
+    height: 3em;
+    border: 2px solid black;
+    cursor: pointer;
+    background-size: 2.7em;
+    outline: none;
+}
+button#playpausebtn1 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#playpausebtn2 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#playpausebtn3 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#playpausebtn4 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#playpausebtn5 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#playpausebtn6 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#playpausebtn7 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#playpausebtn8 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#playpausebtn9 {
+    background: url(../media/pause.jpeg) no-repeat;
+    background-size: 2.7em;
+    background-color: forestgreen;
+    border-radius: 100%;
+}
+button#mutebtn1 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}
+button#mutebtn2 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}
+button#mutebtn3 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}
+button#mutebtn4 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}
+button#mutebtn5 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}
+button#mutebtn6 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}
+button#mutebtn7 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}
+button#mutebtn8 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}
+button#mutebtn9 {
+    background: url(../media/speaker.jpg) no-repeat;
+    background-size: 2.7em;
+    background-color: #f1229f;
+    border-radius: 100%;
+}

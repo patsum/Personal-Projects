@@ -74,7 +74,7 @@ function initAudioPlayer() {
         if (audio.paused) {
             audio.play();
             playbtn.style.background = "url(media/pause.jpeg)";
-            playbtn.style.backgroundSize = "3em";
+            playbtn.style.backgroundSize = "2.7em";
             playbtn.style.backgroundColor = "forestgreen";
         } else {
             audio.pause();
@@ -87,12 +87,12 @@ function initAudioPlayer() {
         if (audio.muted) {
             audio.muted = false;
             mutebtn.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn.style.backgroundSize = "3em";
+            mutebtn.style.backgroundSize = "2.7em";
             mutebtn.style.backgroundColor = "#f1229f";
         } else {
             audio.muted = true;
             mutebtn.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn.style.backgroundSize = "3em";
+            mutebtn.style.backgroundSize = "2.5em";
             mutebtn.style.backgroundColor = "#777";
         }
     }
@@ -126,7 +126,7 @@ function initAudioPlayer1() {
         if (audio1.paused) {
             audio1.play();
             playbtn1.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn1.style.backgroundSize = "3em";
+            playbtn1.style.backgroundSize = "2.7em";
             playbtn1.style.backgroundColor = "forestgreen";
         } else {
             audio1.pause();
@@ -139,12 +139,12 @@ function initAudioPlayer1() {
         if (audio1.muted) {
             audio1.muted = false;
             mutebtn1.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn1.style.backgroundSize = "3em";
+            mutebtn1.style.backgroundSize = "2.7em";
             mutebtn1.style.backgroundColor = "#f1229f"
         } else {
             audio1.muted = true;
             mutebtn1.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn1.style.backgroundSize = "3em";
+            mutebtn1.style.backgroundSize = "2.5em";
             mutebtn1.style.backgroundColor = "#777";
         }
     }
@@ -178,7 +178,7 @@ function initAudioPlayer2() {
         if (audio2.paused) {
             audio2.play();
             playbtn2.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn2.style.backgroundSize = "3em";
+            playbtn2.style.backgroundSize = "2.7em";
             playbtn2.style.backgroundColor = "forestgreen";
         } else {
             audio2.pause();
@@ -191,12 +191,12 @@ function initAudioPlayer2() {
         if (audio2.muted) {
             audio2.muted = false;
             mutebtn2.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn2.style.backgroundSize = "3em";
+            mutebtn2.style.backgroundSize = "2.7em";
             mutebtn2.style.backgroundColor = "#f1229f"
         } else {
             audio2.muted = true;
             mutebtn2.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn2.style.backgroundSize = "3em";
+            mutebtn2.style.backgroundSize = "2.5em";
             mutebtn2.style.backgroundColor = "#777";
         }
     }
@@ -230,7 +230,7 @@ var speedlist = document.getElementById('speedlist3');
         if (audio3.paused) {
             audio3.play();
             playbtn3.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn3.style.backgroundSize = "3em";
+            playbtn3.style.backgroundSize = "2.7em";
             playbtn3.style.backgroundColor = "forestgreen";
         } else {
             audio3.pause();
@@ -243,12 +243,12 @@ var speedlist = document.getElementById('speedlist3');
         if (audio3.muted) {
             audio3.muted = false;
             mutebtn3.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn3.style.backgroundSize = "3em";
+            mutebtn3.style.backgroundSize = "2.7em";
             mutebtn3.style.backgroundColor = "#f1229f";
         } else {
             audio3.muted = true;
             mutebtn3.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn3.style.backgroundSize = "3em";
+            mutebtn3.style.backgroundSize = "2.5em";
             mutebtn3.style.backgroundColor = "#777";
         }
     }
@@ -282,7 +282,7 @@ function initAudioPlayer4() {
         if (audio4.paused) {
             audio4.play();
             playbtn4.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn4.style.backgroundSize = "3em";
+            playbtn4.style.backgroundSize = "2.7em";
             playbtn4.style.backgroundColor = "forestgreen";
         } else {
             audio4.pause();
@@ -295,12 +295,12 @@ function initAudioPlayer4() {
         if (audio4.muted) {
             audio4.muted = false;
             mutebtn4.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn4.style.backgroundSize = "3em";
+            mutebtn4.style.backgroundSize = "2.7em";
             mutebtn4.style.backgroundColor = "#f1229f";
         } else {
             audio4.muted = true;
             mutebtn4.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn4.style.backgroundSize = "3em";
+            mutebtn4.style.backgroundSize = "2.5em";
             mutebtn4.style.backgroundColor = "#777";
         }
     }
@@ -335,7 +335,7 @@ function initAudioPlayer5() {
         if (audio5.paused) {
             audio5.play();
             playbtn5.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn5.style.backgroundSize = "3em";
+            playbtn5.style.backgroundSize = "2.7em";
             playbtn5.style.backgroundColor = "forestgreen";
         } else {
             audio5.pause();
@@ -348,12 +348,12 @@ function initAudioPlayer5() {
         if (audio5.muted) {
             audio5.muted = false;
             mutebtn5.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn5.style.backgroundSize = "3em";
+            mutebtn5.style.backgroundSize = "2.7em";
             mutebtn5.style.backgroundColor = "#f1229f";
         } else {
             audio5.muted = true;
             mutebtn5.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn5.style.backgroundSize = "3em";
+            mutebtn5.style.backgroundSize = "2.5em";
             mutebtn5.style.backgroundColor = "#777";
         }
     }
@@ -388,7 +388,7 @@ function initAudioPlayer6() {
         if (audio6.paused) {
             audio6.play();
             playbtn6.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn6.style.backgroundSize = "3em";
+            playbtn6.style.backgroundSize = "2.7em";
             playbtn6.style.backgroundColor = "forestgreen";
         } else {
             audio6.pause();
@@ -401,12 +401,12 @@ function initAudioPlayer6() {
         if (audio6.muted) {
             audio6.muted = false;
             mutebtn6.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn6.style.backgroundSize = "3em";
+            mutebtn6.style.backgroundSize = "2.7em";
             mutebtn6.style.backgroundColor = "#f1229f";
         } else {
             audio6.muted = true;
             mutebtn6.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn6.style.backgroundSize = "3em";
+            mutebtn6.style.backgroundSize = "2.5em";
             mutebtn6.style.backgroundColor = "#777";
         }
     }
@@ -441,7 +441,7 @@ function initAudioPlayer7() {
         if (audio7.paused) {
             audio7.play();
             playbtn7.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn7.style.backgroundSize = "3em";
+            playbtn7.style.backgroundSize = "2.7em";
             playbtn7.style.backgroundColor = "forestgreen";
         } else {
             audio7.pause();
@@ -454,12 +454,12 @@ function initAudioPlayer7() {
         if (audio7.muted) {
             audio7.muted = false;
             mutebtn7.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn7.style.backgroundSize = "3em";
+            mutebtn7.style.backgroundSize = "2.7em";
             mutebtn7.style.backgroundColor = "#f1229f";
         } else {
             audio7.muted = true;
             mutebtn7.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn7.style.backgroundSize = "3em";
+            mutebtn7.style.backgroundSize = "2.5em";
             mutebtn7.style.backgroundColor = "#777";
         }
     }
@@ -493,7 +493,7 @@ function initAudioPlayer8() {
         if (audio8.paused) {
             audio8.play();
             playbtn8.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn8.style.backgroundSize = "3em";
+            playbtn8.style.backgroundSize = "2.7em";
             playbtn8.style.backgroundColor = "forestgreen";
         } else {
             audio8.pause();
@@ -506,12 +506,12 @@ function initAudioPlayer8() {
         if (audio8.muted) {
             audio8.muted = false;
             mutebtn8.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn8.style.backgroundSize = "3em";
+            mutebtn8.style.backgroundSize = "2.7em";
             mutebtn8.style.backgroundColor = "#f1229f";
         } else {
             audio8.muted = true;
             mutebtn8.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn8.style.backgroundSize = "3em";
+            mutebtn8.style.backgroundSize = "2.5em";
             mutebtn8.style.backgroundColor = "#777";
         }
     }
@@ -546,7 +546,7 @@ function initAudioPlayer9() {
         if (audio9.paused) {
             audio9.play();
             playbtn9.style.background = "url(media/pause.jpeg) no-repeat";
-            playbtn9.style.backgroundSize = "3em";
+            playbtn9.style.backgroundSize = "2.7em";
             playbtn9.style.backgroundColor = "forestgreen";
         } else {
             audio9.pause();
@@ -559,12 +559,12 @@ function initAudioPlayer9() {
         if (audio9.muted) {
             audio9.muted = false;
             mutebtn9.style.background = "url(media/speaker.jpg) no-repeat";
-            mutebtn9.style.backgroundSize = "3em";
+            mutebtn9.style.backgroundSize = "2.7em";
             mutebtn9.style.backgroundColor = "#f1229f";
         } else {
             audio9.muted = true;
             mutebtn9.style.background = "url(media/speakermute.png) no-repeat";
-            mutebtn9.style.backgroundSize = "3em";
+            mutebtn9.style.backgroundSize = "2.5em";
             mutebtn9.style.backgroundColor = "#777";
         }
     }
@@ -577,64 +577,64 @@ function initAudioPlayer9() {
         if(audio.paused, audio2.paused,audio3.paused,audio4.paused,audio5.paused,
         audio6.paused,audio7.paused,audio8.paused,audio9.paused){
             audio.play(), playbtn.style.background = "url(media/pause.jpeg)";
-            playbtn.style.backgroundSize = "3em";
+            playbtn.style.backgroundSize = "2.7em";
             playbtn.style.backgroundColor = "forestgreen";
             audio1.play(), playbtn1.style.background = "url(media/pause.jpeg)";
-            playbtn1.style.backgroundSize = "3em";
+            playbtn1.style.backgroundSize = "2.7em";
             playbtn1.style.backgroundColor = "forestgreen";
             audio2.play(), playbtn2.style.background = "url(media/pause.jpeg)";
-            playbtn2.style.backgroundSize = "3em";
+            playbtn2.style.backgroundSize = "2.7em";
             playbtn2.style.backgroundColor = "forestgreen";
             audio3.play(), playbtn3.style.background = "url(media/pause.jpeg)";
-            playbtn3.style.backgroundSize = "3em";
+            playbtn3.style.backgroundSize = "2.7em";
             playbtn3.style.backgroundColor = "forestgreen";
             audio4.play(), playbtn4.style.background = "url(media/pause.jpeg)";
-            playbtn4.style.backgroundSize = "3em";
+            playbtn4.style.backgroundSize = "2.7em";
             playbtn4.style.backgroundColor = "forestgreen";
          audio5.play(), playbtn5.style.background = "url(media/pause.jpeg)";
-            playbtn5.style.backgroundSize = "3em";
+            playbtn5.style.backgroundSize = "2.7em";
             playbtn5.style.backgroundColor = "forestgreen";
          audio6.play(), playbtn6.style.background = "url(media/pause.jpeg)";
-            playbtn6.style.backgroundSize = "3em";
+            playbtn6.style.backgroundSize = "2.7em";
             playbtn6.style.backgroundColor = "forestgreen";
-         audio7.play(), playbtn.style.background = "url(media/pause.jpeg)";
-            playbtn7.style.backgroundSize = "3em";
+         audio7.play(), playbtn7.style.background = "url(media/pause.jpeg)";
+            playbtn7.style.backgroundSize = "2.7em";
             playbtn7.style.backgroundColor = "forestgreen";
          audio8.play(), playbtn8.style.background = "url(media/pause.jpeg)";
-            playbtn8.style.backgroundSize = "3em";
+            playbtn8.style.backgroundSize = "2.7em";
             playbtn8.style.backgroundColor = "forestgreen";
          audio9.play(), playbtn9.style.background = "url(media/pause.jpeg)";
-            playbtn9.style.backgroundSize = "3em";
+            playbtn9.style.backgroundSize = "2.7em";
             playbtn9.style.backgroundColor = "forestgreen";
         }else{audio.pause(),playbtn.style.background = "url(media/play.png)";
-            playbtn.style.backgroundSize = "60px";
+            playbtn.style.backgroundSize = "3em";
             playbtn.style.backgroundColor = "#777";
         audio1.pause(),playbtn1.style.background = "url(media/play.png)";
-            playbtn1.style.backgroundSize = "60px";
+            playbtn1.style.backgroundSize = "3em";
             playbtn1.style.backgroundColor = "#777";
         audio2.pause(),playbtn2.style.background = "url(media/play.png)";
-            playbtn2.style.backgroundSize = "60px";
+            playbtn2.style.backgroundSize = "3em";
             playbtn2.style.backgroundColor = "#777";
         audio3.pause(),playbtn3.style.background = "url(media/play.png)";
-            playbtn3.style.backgroundSize = "60px";
+            playbtn3.style.backgroundSize = "3em";
             playbtn3.style.backgroundColor = "#777";
         audio4.pause(),playbtn4.style.background = "url(media/play.png)";
-            playbtn4.style.backgroundSize = "60px";
+            playbtn4.style.backgroundSize = "3em";
             playbtn4.style.backgroundColor = "#777";
         audio5.pause(),playbtn5.style.background = "url(media/play.png)";
-            playbtn5.style.backgroundSize = "60px";
+            playbtn5.style.backgroundSize = "3em";
             playbtn5.style.backgroundColor = "#777";
         audio6.pause(),playbtn6.style.background = "url(media/play.png)";
-            playbtn6.style.backgroundSize = "60px";
+            playbtn6.style.backgroundSize = "3em";
             playbtn6.style.backgroundColor = "#777";
         audio7.pause(),playbtn7.style.background = "url(media/play.png)";
-            playbtn7.style.backgroundSize = "60px";
+            playbtn7.style.backgroundSize = "3em";
             playbtn7.style.backgroundColor = "#777";
         audio8.pause(),playbtn8.style.background = "url(media/play.png)";
-            playbtn8.style.backgroundSize = "60px";
+            playbtn8.style.backgroundSize = "3em";
             playbtn8.style.backgroundColor = "#777";
         audio9.pause(),playbtn9.style.background = "url(media/play.png)";
-            playbtn9.style.backgroundSize = "60px";
+            playbtn9.style.backgroundSize = "3em";
             playbtn9.style.backgroundColor = "#777";
         };
     }
